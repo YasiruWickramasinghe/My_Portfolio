@@ -25,15 +25,15 @@ const Hero = () => {
             </span>
             My Name is <br></br><span>Yasiru Wickramasinghe</span>
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Software Engineer
+          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600 hover:text-cyan-600">
+            Software Engineer |  Tech Enthusiast
           </h4>
           <button className="btn-primary mt-8 hover:bg-cyan-500"><a href="#contact">Contact Me</a></button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((content) => (
               <div
                 key={content.logo}
-                className="text-gray-600 hover:text-white cursor-pointer "
+                className="text-gray-600 hover:text-white cursor-pointer"
               >
                 <a href={content.link}><ion-icon name={content.logo}></ion-icon></a>
               </div>
