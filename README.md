@@ -4,8 +4,8 @@ responsive portfolio using react js and tailwind css
 
 ## Installation Guide
 
-### npm i
-### npm run dev
+### 1. npm i
+### 2. npm run dev
 
 ## Contact
 
