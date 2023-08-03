@@ -14,38 +14,49 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "Clothing Shop",
+      github_link: "https://github.com/YasiruWickramasinghe/Pearl_Clothing_Shop-Frontend",
+      live_link: "",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Day Care",
+      github_link: "https://github.com/Syndicate-Crew/SweetPaws-Frontend",
+      live_link: "",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "Online Construction",
+      github_link: "https://github.com/YasiruWickramasinghe/Online-Construction-System",
+      live_link: "",
     },
     {
       img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+      name: "Hospital System",
+      github_link: "https://github.com/YasiruWickramasinghe/Hospital-Management-System",
+      live_link: "",
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      name: "Medicine Alert APP",
+      github_link: "https://github.com/it19062884Ruvindu/Group_43_Medicine_Allert_App",
+      live_link: "",
+    },
+    {
+      img: project5,
+      name: "Food Delivery Android App",
+      github_link: "https://github.com/YasiruWickramasinghe/Food-Delivery-Android-App",
+      live_link: "",
+    },
+    {
+      img: project1,
+      name: "    Smart Advertising",
+      github_link: "",
+      live_link: "https://ieeexplore.ieee.org/document/10025117",
     },
   ];
   return (
-    <section id="projects" className="py-10 text-white">
+    <section id="projects" className="py-10 px-3 bg-gray-800 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>

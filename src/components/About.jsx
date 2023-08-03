@@ -33,7 +33,7 @@ const About = () => {
               <br />
               <br />
               <a href="./src/assets/Yasiru_Wickramasinghe.pdf" download>
-                <button className="btn-primary">Download CV</button>
+                <button className="btn-primary hover:bg-cyan-500">Download CV</button>
               </a>
             </div>
           </div>

@@ -2,12 +2,9 @@ import React from "react";
 
 const Contact = () => {
   const contact_info = [
-    { logo: "mail", text: "codeaprogram@gmail.com" },
-    { logo: "logo-whatsapp", text: "123 456 780" },
-    {
-      logo: "location",
-      text: "demo location",
-    },
+    { logo: "mail", text: "yasirucareer@gmail.com" },
+    { logo: "logo-whatsapp", text: "+94 774 047 401" },
+    { logo: "globe-outline", text: "www.YasiruVisions.com", },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">
@@ -25,7 +22,7 @@ const Contact = () => {
             <input type="text" placeholder="Your Name" />
             <input type="Email" placeholder="Your Email Address" />
             <textarea placeholder="Your Message" rows={10}></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
+            <button className="btn-primary hover:bg-cyan-500 w-fit">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

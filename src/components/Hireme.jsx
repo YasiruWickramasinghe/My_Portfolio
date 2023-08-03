@@ -17,7 +17,7 @@ const Hireme = () => {
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
           I am an experienced professional in web development, mobile app development, and machine learning AI. With a diverse skill set, I tackle all software works, crafting innovative solutions that deliver exceptional results. Let's connect and explore new possibilities together!
           </p>
-          <button className="btn-primary mt-10"><a href="#contact">Contact Me</a></button>
+          <button className="btn-primary hover:bg-cyan-500 mt-10"><a href="#contact">Contact Me</a></button>
         </div>
         <img
           src={hireMe}
