@@ -15,12 +15,9 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          I am an experienced professional in web development, mobile app development, and machine learning AI. With a diverse skill set, I tackle all software works, crafting innovative solutions that deliver exceptional results. Let's connect and explore new possibilities together!
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <button className="btn-primary mt-10"><a href="#contact">Contact Me</a></button>
         </div>
         <img
           src={hireMe}

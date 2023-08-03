@@ -69,7 +69,7 @@ const Skills = () => {
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>
-      <br/>
+        <p className="text-gray-400 mt-3 text-lg">Areas of Expertise</p>
         <div className="flex items-center justify-center mt-12 gap-5 flex-wrap">
           {skills?.map((skill, i) => (
             <div
