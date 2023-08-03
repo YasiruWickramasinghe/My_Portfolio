@@ -2,11 +2,11 @@ import React from "react";
 import hero from "../assets/images/hero.png";
 const Hero = () => {
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
-    "logo-github",
+    { logo: "logo-linkedin", link: "https://www.linkedin.com/in/yasirusajith/"},
+    { logo: "logo-facebook", link: "https://www.facebook.com/YasiruWickramasingha"},
+    { logo: "logo-instagram", link: "https://www.instagram.com/yasiruwickramasingha/"},
+    { logo: "logo-twitter", link: "https://twitter.com/YasiruSajith"},
+    { logo: "logo-github", link: "https://github.com/YasiruWickramasinghe"}
   ];
   return (
     <section
@@ -30,12 +30,12 @@ const Hero = () => {
           </h4>
           <button className="btn-primary mt-8"><a href="#contact">Contact Me</a></button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
+            {social_media?.map((content) => (
               <div
-                key={icon}
+                key={content.logo}
                 className="text-gray-600 hover:text-white cursor-pointer "
               >
-                <ion-icon name={icon}></ion-icon>
+                <a href={content.link}><ion-icon name={content.logo}></ion-icon></a>
               </div>
             ))}
           </div>
