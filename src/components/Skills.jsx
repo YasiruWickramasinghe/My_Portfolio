@@ -4,23 +4,63 @@ const Skills = () => {
   const skills = [
     {
       logo: "logo-html5",
-      level: "Advance",
-      count: 86,
+      level: "Expert",
+      count: 87,
     },
     {
       logo: "logo-css3",
-      level: "Expect",
-      count: 90,
+      level: "Advance",
+      count: 83,
     },
     {
-      logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
+      logo: "logo-javascript",
+      level: "Intermediate",
+      count: 79,
     },
     {
       logo: "logo-react",
+      level: "Expert",
+      count: 86,
+    },
+    {
+      logo: "logo-nodejs",
       level: "Intermediate",
-      count: 80,
+      count: 79,
+    },
+    {
+      logo: "logo-vue",
+      level: "Beginner",
+      count: 57,
+    },
+    {
+      logo: "logo-firebase",
+      level: "Beginner",
+      count: 54,
+    },
+    {
+      logo: "logo-docker",
+      level: "Intermediate",
+      count: 62,
+    },
+    {
+      logo: "logo-microsoft",
+      level: "Advance",
+      count: 74,
+    },
+    {
+      logo: "logo-apple",
+      level: "Expect",
+      count: 59,
+    },
+    {
+      logo: "cloud-outline",
+      level: "Beginner",
+      count: 47,
+    },
+    {
+      logo: "logo-github",
+      level: "Advance",
+      count: 83,
     },
   ];
   return (
@@ -29,8 +69,8 @@ const Skills = () => {
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
+      <br/>
+        <div className="flex items-center justify-center mt-12 gap-5 flex-wrap">
           {skills?.map((skill, i) => (
             <div
               key={i}
