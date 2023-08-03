@@ -6,6 +6,7 @@ const Hero = () => {
     "logo-facebook",
     "logo-linkedin",
     "logo-twitter",
+    "logo-github",
   ];
   return (
     <section
