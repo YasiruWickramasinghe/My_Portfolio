@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import service1 from "../assets/images/service1.png";
+import service1 from "../assets/images/service2.png";
 import service2 from "../assets/images/service2.png";
 import service3 from "../assets/images/service3.png";
 import service4 from "../assets/images/service4.png";
