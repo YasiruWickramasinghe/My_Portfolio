@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: "SKILLS", link: "#skills" },
     { name: "SERVICES", link: "#services" },
     { name: "PROJECTS", link: "#projects" },
+    { name: "TESTIMONIALS", link: "#testimonials" },
     { name: "CONTACT", link: "#contact" },
   ];
   useEffect(() => {
