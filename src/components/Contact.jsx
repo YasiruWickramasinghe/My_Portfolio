@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   const contact_info = [
-    { logo: "mail", text: "yasirucareer@gmail.com"  },
-    { logo: "logo-whatsapp", text: "+94 774 047 401" },
-    { logo: "globe-outline", text: "www.YasiruVisions.com", },
+    { logo: "mail", text: "yasirucareer@gmail.com" },
+    { logo: "logo-whatsapp", text: "+94774047401" },
+    { logo: "globe-outline", text: "www.yasiruvisions.com", },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">
@@ -35,7 +35,17 @@ const Contact = () => {
                   <ion-icon name={contact.logo}></ion-icon>
                 </div>
                 <p className="md:text-base text-sm  break-words">
-                  {contact.text}
+                  {contact.logo === "globe-outline" ? (
+                    <a href={`http://${contact.text}`} target="_blank" rel="noopener noreferrer">
+                      {contact.text}
+                    </a>
+                  ) : contact.logo === "logo-whatsapp" ? (
+                    <a href={`https://wa.me/${contact.text}`} target="_blank" rel="noopener noreferrer">
+                      {contact.text}
+                    </a>
+                  ) : (
+                    <a href={`mailto:${contact.text}`}>{contact.text}</a>
+                  )}
                 </p>
               </div>
             ))}
