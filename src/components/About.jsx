@@ -42,7 +42,7 @@ const About = () => {
               <img
                 src={aboutImg}
                 alt=""
-                className="w-full object-cover bg-cyan-600 rounded-xl"
+                className="w-full object-cover bg-cyan-700 rounded-xl"
               />
             </div>
           </div>
