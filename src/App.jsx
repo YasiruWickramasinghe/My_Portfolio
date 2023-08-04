@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
 import Service from "./components/Service";
+import Interest from "./components/Interest";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Bot />
       <Hero />
       <About />
+      <Interest/>
       <Skills />
       <Service/>
       <Hireme />

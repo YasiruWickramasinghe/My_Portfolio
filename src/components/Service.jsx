@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
 const Service = () => {
-    const projects = [
+    const services = [
         {
             img: service1,
             name: "Web Development",
@@ -77,14 +77,14 @@ const Service = () => {
                         }}
                         modules={[Pagination, Autoplay]}
                     >
-                        {projects.map((project_info, i) => (
+                        {services.map((service_info, i) => (
                             <SwiperSlide key={i}>
                                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
                                     <div className="text-center">
-                                        <h2 className="text-xl my-4 font-semibold ">{project_info.name}</h2>
+                                        <h2 className="text-xl my-4 font-semibold ">{service_info.name}</h2>
                                     </div>
-                                    <img src={project_info.img} alt="" className="rounded-lg" />
-                                    <h5 className="text-l my-4">{project_info.desc}</h5>
+                                    <img src={service_info.img} alt="" className="rounded-lg" />
+                                    <h5 className="text-l my-4">{service_info.desc}</h5>
                                 </div>
                             </SwiperSlide>
                         ))}
