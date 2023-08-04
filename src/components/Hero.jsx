@@ -20,10 +20,11 @@ const Hero = () => {
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
-              Hello!
-              <br />
+              Hello!  
             </span>
-            My Name is <br></br><span>Yasiru Wickramasinghe</span>
+            &nbsp;&nbsp;<span className="md:text-6xl text-5xl">
+            I'm   
+            </span><br></br><span>Yasiru Wickramasinghe</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600 hover:text-cyan-600">
             Software Engineer |  Tech Enthusiast
