@@ -1,11 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import service1 from "../assets/images/service2.png";
-import service2 from "../assets/images/service2.png";
-import service3 from "../assets/images/service3.png";
-import service4 from "../assets/images/service4.png";
-import service5 from "../assets/images/service5.png";
-import service6 from "../assets/images/service6.png";
+import service1 from "../assets/images/project-1.png";
+import service2 from "../assets/images/project-1.png";
+import service3 from "../assets/images/project-1.png";
+import service4 from "../assets/images/project-1.png";
+import service5 from "../assets/images/project-1.png";
+import service6 from "../assets/images/project-1.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
