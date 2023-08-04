@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
 import Service from "./components/Service";
 import Interest from "./components/Interest";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Service/>
       <Hireme />
       <Project />
+      <Testimonials/>
       <Contact />
       <Footer />
     </div>
