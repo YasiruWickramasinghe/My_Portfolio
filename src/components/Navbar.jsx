@@ -34,9 +34,9 @@ const Navbar = () => {
         <div
           className={` ${
             sticky ? "md:bg-white/0 bg-cyan-600" : "bg-cyan-600"
-          } text-gray-900 md:block hidden px-1 py-2 font-medium  rounded-bl-full`}
+          } text-gray-900 md:block hidden px-1 py-2  rounded-bl-full`}
         >
-          <ul className="flex items-center py-2 text-lg">
+          <ul className="flex items-center py-2 text-sm">
             {menuLinks?.map((menu, i) => (
               <li key={i} className="px-6 hover:text-white">
                 <a href={menu?.link}>{menu?.name}</a>
